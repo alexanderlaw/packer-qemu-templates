@@ -44,7 +44,8 @@
         "scripts/disablewinupdate.bat",
         "scripts/disable-hibernate.bat",
         "scripts/firewall-open-ping.bat",
-        "scripts/firewall-open-rdp.bat"
+        "scripts/firewall-open-rdp.bat",
+        "scripts/create-test-user.bat"
       ]
     },
 
