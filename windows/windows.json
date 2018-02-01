@@ -3,6 +3,7 @@
   "builders": [
     {
       "type": "qemu",
+      "accelerator": "kvm",
       "disk_size": "{{ user `disk_size` }}",
 
       "floppy_files": "{{ user `floppy_files_list` }}",
