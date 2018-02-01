@@ -1,0 +1,9 @@
+{
+  "_comment": "Build with `packer build -var-file=windows-10-ent.json windows.json`",
+  "vm_name": "windows-10-ent",
+  "iso_checksum_type": "sha1",
+  "iso_checksum": "56ab095075be28a90bc0b510835280975c6bb2ce",
+  "iso_url": "http://care.dlservice.microsoft.com/dl/download/C/3/9/C399EEA8-135D-4207-92C9-6AAB3259F6EF/10240.16384.150709-1700.TH1_CLIENTENTERPRISEEVAL_OEMRET_X64FRE_EN-US.ISO",
+  "version" : "1",
+  "floppy_files_list" : "floppy/drivers/virtio-win-0.1.117/viostor/w10/amd64/*,floppy/drivers/virtio-win-0.1.117/NetKVM/w10/amd64/*,floppy/common/*,floppy/windows-10-enterprise/*"
+}
