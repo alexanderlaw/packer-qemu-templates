@@ -1,0 +1,9 @@
+{
+  "_comment": "Build with `packer build -var-file=windows-7sp1-ent-32.json windows.json`",
+  "vm_name": "windows-7sp1-ent-32",
+  "iso_checksum_type": "md5",
+  "iso_checksum": "62675a3b76d21815367f372961b71a56",
+  "iso_url": "http://care.dlservice.microsoft.com/dl/download/evalx/win7/x86/EN/7600.16385.090713-1255_x86fre_enterprise_en-us_EVAL_Eval_Enterprise-GRMCENEVAL_EN_DVD.iso",
+  "version" : "1",
+  "floppy_files_list" : "floppy/drivers/virtio-win-0.1.117/viostor/w7/x86/*,floppy/drivers/virtio-win-0.1.117/NetKVM/w7/x86/*,floppy/common/*,floppy/windows-7sp1-enterprise-32/*"
+}
