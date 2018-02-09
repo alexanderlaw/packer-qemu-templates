@@ -21,7 +21,7 @@
       "communicator": "winrm",
       "winrm_username": "vagrant",
       "winrm_password": "vagrant",
-      "winrm_timeout": "10000s",
+      "winrm_timeout": "18000s",
 
       "qemuargs": [
         [ "-m", "4048M" ],
