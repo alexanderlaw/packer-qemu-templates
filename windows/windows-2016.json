@@ -1,5 +1,5 @@
 {
-  "_comment": "Build with `packer build -var-file=windows-2016-standard.json windows-vagrant.json`",
+  "_comment": "Build with `packer build -var-file=windows-2016.json windows-vagrant.json`",
   "vm_name": "windows-2016",
   "iso_checksum_type": "md5",
   "iso_checksum": "18a4f00a675b0338f3c7c93c4f131beb",
