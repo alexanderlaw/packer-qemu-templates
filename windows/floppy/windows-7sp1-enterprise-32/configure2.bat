@@ -7,8 +7,7 @@ powershell -Command "((new-object net.webclient).DownloadFile('http://download.m
 wusa.exe %TEMP%\Windows6.1-KB2506143-x86.msu /quiet /norestart
 
 :: Download and install HotFix for KB2842230
-powershell -Command "((new-object net.webclient).DownloadFile('http://hotfixv4.microsoft.com/Windows%%207/Windows%%20Server2008%%20R2%%20SP1/sp2/Fix467402/7600/free/463983_intl_i386_zip.exe', '%TEMP%\463983_intl_i386.zip'))
-powershell -Command "$shell = New-Object -ComObject Shell.Application; $zip_src = $shell.NameSpace('%TEMP%\463983_intl_i386.zip'); $zip_dest = $shell.NameSpace('%TEMP%'); $zip_dest.CopyHere($zip_src.Items(), 1044)"
+powershell -Command "((new-object net.webclient).DownloadFile('https://oc.postgrespro.ru/index.php/s/MSkk7z7nFXPphOD/download', '%TEMP%\Windows6.1-KB2842230-x86.msu'))
 wusa.exe %TEMP%\Windows6.1-KB2842230-x86.msu /quiet /norestart
 
 :: Remove temporary files
