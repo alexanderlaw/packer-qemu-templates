@@ -1,1 +1,1 @@
-netsh advfirewall firewall set rule group="remote desktop" new enable=Yes
+netsh advfirewall firewall set rule group="@FirewallAPI.dll,-28502" new enable=Yes

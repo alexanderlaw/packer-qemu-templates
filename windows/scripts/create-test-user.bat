@@ -11,3 +11,5 @@ net user test
 
 REM Create user profile
 powershell -Command "Start-Process whoami -LoadUserProfile -Credential (new-object -typename System.Management.Automation.PSCredential -argumentlist \"test\", (convertto-securestring \"TestPass1\" -asplaintext -force))"
+
+systeminfo
